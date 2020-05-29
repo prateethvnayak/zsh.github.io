@@ -56,6 +56,6 @@ If above setup goes well, install the `oh-my-zsh` framework with the command bel
 ```bash
 curl https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sed -e 's/grep\ \/zsh\$\ \/etc\/shells/which zsh/g' | zsh
 ```
-The installation is quick and we are welcomed with the `oh-my-zsh` installation. As specified, enter command `zsh` to enter the `0h-my-zsh` shell.
+The installation is quick and we are welcomed with the `oh-my-zsh` installation. As specified, enter command `zsh` to enter the `oh-my-zsh` shell.
 
 <img src="images/ohmyzsh.png" width="450" height="250">

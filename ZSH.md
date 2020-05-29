@@ -133,5 +133,11 @@ OH-MY-ZSH lets you type the beginning of a command, and then press up-arrow to c
 These are some of basic functionality enhacements ZSH offers over the normal bash-terminal. Once set-up you would never want to leave the terminal! 
 
 
+#### TroubleShooting 
+
+Sometimes the ZSH themes would not work as intended due to the terminal font support. If you are locally on a Mac or on Ubuntu, you would want to install some font support to the terminal application locally. The best way is to install the [PowerLine Font](https://github.com/powerline/fonts#installation)
+
+
+
 
 

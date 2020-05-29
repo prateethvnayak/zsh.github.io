@@ -47,3 +47,15 @@ source ~/.bashrc
 ```
 <img src="images/welcome.png" width="450" height="250">
 
+Exit the screen choosing option `(0)`, as we will be installing the `oh-my-zsh` framework over the base `zsh` shell.
+Now, the terminal look is changed to bare minimum as the `~/.zshrc` file is empty.
+
+### Installing the Oh-My-ZSH framework
+
+If above setup goes well, install the `oh-my-zsh` framework with the command below which replaces the `~/.zshrc` with a new file (same name)
+```bash
+curl https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sed -e 's/grep\ \/zsh\$\ \/etc\/shells/which zsh/g' | zsh
+```
+The installation is quick and we are welcomed with the `oh-my-zsh` installation. As specified, enter command `zsh` to enter the `0h-my-zsh` shell.
+
+<img src="images/ohmyzsh.png" width="450" height="250">

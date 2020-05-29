@@ -45,5 +45,5 @@ Now, source the bashrc file, and you will be welcomed with a `zsh-firsttime-inst
 ```bash 
 source ~/.bashrc
 ```
-<img src="images/welcome.png" width="150" height="100">
+<img src="images/welcome.png" width="450" height="250">
 

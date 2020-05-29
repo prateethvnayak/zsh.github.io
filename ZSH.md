@@ -1,4 +1,4 @@
-# ZSH Shell [with OH-MY-ZSH config]
+## ZSH Shell [with OH-MY-ZSH config]
 
 ### Installation [without root]
 

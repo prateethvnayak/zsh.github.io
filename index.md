@@ -62,14 +62,15 @@ The installation is quick and we are welcomed with the `oh-my-zsh` installation.
 
 ### Configuring & Features of OH-MY-ZSH
 
+**Note** : Every time we add something to the `~/.zshrc`, we need to source it using the command `source ~/.zshrc` for the changes to be seen. 
 
-#### To change the Themes
+#### Change the Themes
 
 The first thing is we can change the themes for our terminal. There are tons of stock theme options we can choose from. For the best view before changing, you can use this [Reference](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes). By Default, on installation the theme is `robbyrussell`
 
 Open the `zshrc` file using a `vim` or your fav editor. Look for the env variable `ZSH_THEME`, change the theme name to the one needed. My personal fav is the theme named `avit`. Shown below
 
-<img src="images/avit.png" height="250">
+<img src="images/avit.png" >
 
 One amazing feature of `ZSH` is that contrary to bash, it's a right & left prompt. You can use the prompt theme `agnoster` and you will know why !
 
@@ -78,3 +79,20 @@ One amazing feature of `ZSH` is that contrary to bash, it's a right & left promp
 `zsh-plugins` are a way to add features to the zsh-terminal. These include tool plugins like `git`,`nc`,etc. or also some of the basic operations like `cd`,`ls`,etc. come with extra ease of use or functionality.
 
 All plugins are installed in the folder **$HOME/.oh-my-zsh/custom/plugins**
+
+Lets go ahead, and install one of the cool plugins which make the terminal use more easy ! 
+The plugin is called `auto-suggestions`. As the name suggests, it helps in suggesting commands while typing. 
+Following command, installs the plugin directly into the custom/plugin folder. 
+```bash
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+```
+
+Now, we need to specify the plugin in the `~/.zshrc` config file of the shell. Navigate to the `.zshrc` file and look for the env variable name `plugins`
+
+Set `plugins =(git zsh-autosuggestions)`
+
+Source the `~/.zshrc` and now you can see suggestions for commands as below (the suggestions get better with history). You can choose the suggestions by pressing the right-arrow key while typing to finish the command. 
+
+<img src="images/suggest.gif" >
+
+

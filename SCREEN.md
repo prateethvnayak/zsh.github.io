@@ -28,7 +28,7 @@ Once you have multiple screens running, we can list the screen processes running
 screen -ls
 ```
 
-<img src="images/screenls.png" width="300" height="250">
+<img src="images/screenls.png" height="300">
 
 #### Re-Attach to a deatched SCREEN
 
@@ -87,7 +87,6 @@ Also, we can kill a screen after detaching by first checking the pid or name usi
 ```bash
 screen -X -S <screen_name/PID> quit
 ```
-
 
 
 

@@ -69,7 +69,7 @@ The first thing is we can change the themes for our terminal. There are tons of 
 
 Open the `zshrc` file using a `vim` or your fav editor. Look for the env variable `ZSH_THEME`, change the theme name to the one needed. My personal fav is the theme named `avit`. Shown below
 
-<img src="images/avit.png" width="500" height="250">
+<img src="images/avit.png" height="250">
 
 One amazing feature of `ZSH` is that contrary to bash, it's a right & left prompt. You can use the prompt theme `agnoster` and you will know why !
 

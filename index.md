@@ -104,10 +104,13 @@ There are some minute things we do on the terminal which are straightforward but
 ##### Changing Dirs 
 
 Navigating between directories, going up and down dirs is made easy in ZSH with just using dots and including slashes ! 
+
 <img src="images/cd.gif" >
 
 The other cool thing is `cd` is no more Case-Sensitive, and finally, we can just mention the first letter of the folders separated by slashes and hit TAB to see the path magically filled ! And, it doesnt stop here; We can navigate without using `cd` ! and just entering the paths. 
+
 <img src="images/cd2.gif" >
+
 <img src="images/cd3.gif" >
 
 ##### Open files anywher in the directory and Listing Files with Filters 
@@ -115,7 +118,9 @@ The other cool thing is `cd` is no more Case-Sensitive, and finally, we can just
 If we need to open a file somewhere down the directory, and we know the file name, all we need to do is know the path. But in ZSH ! no, you directly specify file name and terminal figures out the path
 
 Also, listing files based on size, or list the files edited the last (say 1-4 lines edited) in the directory is sometimes useful.
+
 <img src="images/ls1.gif" >
+
 <img src="images/ls2.gif" >
 
 
